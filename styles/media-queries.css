@@ -1,0 +1,26 @@
+/* fixes navbar from ~1180px to ~990px wide */
+@media (max-width: 1180px) {
+    .nav {
+        height: 70px;
+    }
+
+    .nav > .logo-links-wrapper > .logo-wrapper img {
+        height: 30px;
+        padding: 20px 25px;
+    }
+
+    .nav > .logo-links-wrapper > .links-explore-wrapper > .links-wrapper > .spark-dropdown {
+        margin-left: 20px;
+    }
+
+    .nav > .logo-links-wrapper > .links-explore-wrapper > .explore, 
+    .nav > .logo-links-wrapper > .links-explore-wrapper > .links-wrapper > .nav-link a, 
+    .nav > .logo-links-wrapper > .links-explore-wrapper > .links-wrapper > .spark-dropdown, 
+    .nav > .btn-wrapper button {
+        font-size: 1em;
+    }
+
+    .nav > .btn-wrapper > .search {
+        font-size: 2em;
+    }
+}
