@@ -29,7 +29,6 @@
 }
 
 .links-explore-wrapper > .explore {
-    font-family: sans-serif;
     color: #ffff55;
     font-size: 1.25em;
     margin-left: 5px;
@@ -41,7 +40,6 @@
 }
 
 .links-wrapper > .nav-link a {
-    font-family: sans-serif;
     color: white;
     text-decoration: none;
     font-size: 1.25em;
@@ -70,6 +68,7 @@
     border: 1px solid #36383f;
     color: white;
     font-size: 1.125em;
+    font-weight: 600;
 }
 
 .nav > .btn-wrapper > .search {

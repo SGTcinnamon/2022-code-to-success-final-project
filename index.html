@@ -8,8 +8,13 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- Lato, the generic font for the website -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font for footer links -->
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+    
     <link rel="stylesheet" media="screen" href="styles/nav.css" />
     <link rel="stylesheet" media="screen" href="styles/homepage.css" />
     <link rel="stylesheet" media="screen" href="styles/media-queries.css" />
@@ -80,9 +85,11 @@
                 &#128075;
                 <!-- waving hand emoji -->
             </p>
+
             <P class="paragraph2">
                 It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.
             </P>
+            <!-- The apostrophe isn't curved in the Lato font, like it is in the original website. -->
 
             <div class="btn-wrapper">
                 <a href="#">
@@ -108,26 +115,41 @@
 
     <!-- footer thingy -->
     <div class="codepen-purposes">
-        <div class="purpose">
-            <span>CodePen for</span>
-            <span>TEAMS</span>
-        </div>
+        <a href="#">
+            <div class="purpose">
+                <div class="link-text-wrapper">
+                    <span>CodePen for</span>
+                    <span>TEAMS</span>
+                </div>
+            </div>
+        </a>
+        
+        <a href="#">
+            <div class="purpose">
+                <div class="link-text-wrapper">
+                    <span>CodePen for</span>
+                    <span>EDUCATION</span>
+                </div>
+            </div>
+        </a>
 
-        <div class="purpose">
-            <span>CodePen for</span>
-            <span>EDUCATION</span>
-        </div>
+        <a href="#">
+            <div class="purpose">
+                <div class="link-text-wrapper">
+                    <span>CodePen for</span>
+                    <span>PRIVACY</span>
+                </div>
+            </div>
+        </a>
 
-        <div class="purpose">
-            <span>CodePen for</span>
-            <span>PRIVACY</span>
-        </div>
-
-        <div class="purpose">
-            <span>CodePen for</span>
-            <span>WRITING</span>
-        </div>
-
+        <a href="#">
+            <div class="purpose">
+                <div class="link-text-wrapper">
+                    <span>CodePen for</span>
+                    <span>WRITING</span>
+                </div>
+            </div>
+        </a>
     </div>
 
 </body>

@@ -24,3 +24,10 @@
         font-size: 2em;
     }
 }
+
+/* The footer looks better like this when the window is wider */
+@media (min-width: 1600px) {
+    .codepen-purposes {
+        height: 80px;
+    }
+}
